@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Shop Homepage - Start Bootstrap Template</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" th:href="@{/bootstrap/assets/favicon.ico}" />
+        <link rel="icon" type="image/x-icon" th:href="@{/resources/assets/favicon.ico}" />
         <!-- Bootstrap icons-->
         <link th:href="@{https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css}" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -39,9 +39,7 @@
                             Cart
                             <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                         </button>
-                        <button type="submit">
-                            <i class="bi bi-person-circle"></i> 로그인
-                        </button>
+                            <a class="bi bi-person-circle" th:href="@{/login}"></a> 로그인
                     </form>
 
                 </div>

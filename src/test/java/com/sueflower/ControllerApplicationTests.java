@@ -1,4 +1,4 @@
-package com.sueflower.controller;
+package com.sueflower;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
